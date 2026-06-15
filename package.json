@@ -3,13 +3,33 @@
   "version": "1.0.0",
   "description": "Zero-dep Union-Find (Disjoint Set Union) with path compression, union by rank, and Kruskal's MST",
   "main": "src/index.js",
-  "bin": { "dsu": "src/cli.js" },
+  "bin": {
+    "dsu": "src/cli.js"
+  },
   "type": "module",
   "scripts": {
     "test": "node --test test/index.test.js"
   },
-  "keywords": ["union-find", "disjoint-set", "merge-find", "union-by-rank", "path-compression", "kruskal", "mst", "data-structure"],
+  "keywords": [
+    "union-find",
+    "disjoint-set",
+    "merge-find",
+    "union-by-rank",
+    "path-compression",
+    "kruskal",
+    "mst",
+    "data-structure"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
-  "repository": { "type": "git", "url": "https://github.com/sulthonzh/disjoint-set" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/disjoint-set"
+  },
+  "files": [
+    "src/",
+    "cli.js",
+    "README.md",
+    "LICENSE"
+  ]
 }

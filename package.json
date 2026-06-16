@@ -1,5 +1,5 @@
 {
-  "name": "disjoint-set",
+  "name": "@quadbyte/disjoint-set",
   "version": "1.0.0",
   "description": "Zero-dep Union-Find (Disjoint Set Union) with path compression, union by rank, and Kruskal's MST",
   "main": "src/index.js",
@@ -31,5 +31,8 @@
     "cli.js",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

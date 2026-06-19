@@ -34,5 +34,12 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://github.com/sulthonzh/disjoint-set#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/disjoint-set/issues"
   }
 }

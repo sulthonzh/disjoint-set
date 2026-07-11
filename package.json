@@ -41,5 +41,8 @@
   "homepage": "https://github.com/sulthonzh/disjoint-set#readme",
   "bugs": {
     "url": "https://github.com/sulthonzh/disjoint-set/issues"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
   }
 }
